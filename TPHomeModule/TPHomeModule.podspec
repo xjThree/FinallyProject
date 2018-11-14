@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TPHomeModule/Classes/*.{h,m}'
+  s.source_files = 'TPHomeModule/Classes/**/'
   
   # s.resource_bundles = {
   #   'TPHomeModule' => ['TPHomeModule/Assets/*.png']
-  # }
+  # 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
