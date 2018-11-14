@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xjThree/TPHomeModule'
+  s.homepage         = 'https://github.com/xjThree/FinallyProject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xjThree' => 'xj250323489@163.com' }
-  s.source           = { :git => 'https://github.com/xjThree/TPHomeModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xjThree/FinallyProject', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TPHomeModule/Classes/**/*'
+  s.source_files = '/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'TPHomeModule' => ['TPHomeModule/Assets/*.png']
